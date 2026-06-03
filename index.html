@@ -17,14 +17,26 @@
 
             <div class = "input-container">
                 <label for ="email">Email</label>
-                <input type ="text" id="email">
+                <input type ="email" id="email">
+            </div>
+
+
+            <div class="input-container">
+                <label for="typeofMatch">Select match</label>
+
+                <select id="typeofMatch">
+                    <option value="">Select Match Type</option>
+                    <option value="T20">T20</option>
+                    <option value="ODI">ODI</option>
+                    <option value="Test">Test</option>
+                </select>
             </div>
 
             <div class = "input-container">
                 <label for ="ticket">Number of tickets</label>
                 <input type ="number" id= "ticket">
             </div>
-			<button type="buy">Buy Tickets</button>
+			<button type="submit">Buy Tickets</button>
 		</form>
 		<script src="script.js"></script>
 	</body>
